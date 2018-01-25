@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head><title>index1.html</title>
+<style>
+  #bod { background-color: rgb(219, 194, 228); }  
+  #three { border-radius: 220px; position: absolute; z-index: 100; top: 5px; left: 5px;}
+  #four { border-radius: 10px; position: absolute; z-index: 100; top: 20px; left: 1010px;}
+  #abs { width: 1310px;
+         height: 275px;
+         position: absolute;
+         top: 0px;
+         left: 0px;
+         margin: 15px;
+         background-color: rgb(61, 248, 248); }
+
+  #abs1 { width: 410px;
+         height: 600px;
+         position: absolute;
+         top: 290px;
+         margin: 15px;
+         background-color: rgb(207, 239, 218);  } /* rgb(190 233 204); */
+
+  #abs2 { width: 300px;
+         height: 500px;
+         position: absolute;
+         top: 290px;
+         left: 430px;
+         padding: 50px;
+         margin: 15px;
+         background-color: rgb(207, 239, 218);  }
+
+  #abs3 { width: 360px;
+          height: 500px;
+          position: absolute;
+          top: 290px;
+          left: 850px;
+          padding: 50px;
+          margin: 15px;
+          background-color: rgb(207, 239, 218);  }
+
+   #ins { width: 310px;
+          height: 500px;
+          padding: 15px;
+          background-color: rgb(94, 255, 94); 
+          border-radius: 10px; }
+
+   #fs {  border-radius: 10px; padding: 20px; }
+   #txa {  border-radius: 10px; }
+   #tx {  border-radius: 7px; }
+   #tx1 {  border-radius: 7px; }
+   #tx2 {  border-radius: 7px; }
+   #tx3 {  border-radius: 7px; }
+   #subm {  border-radius: 7px; }
+   
+
+</style>
+</head>
+<body id="bod" >
+      
+     <img src="img1.jpg" width="220px" height="220px" id="three"/>
+     <img src="img2.jpg" id="four"/> 
+     <div id="abs" >
+      <center>
+       <h2>Homepage</h2>
+       <h1>Michael Cintron</h1>
+       <address>
+        <p>
+          <a href="mailto:michaelcintr@gmail.com">michaelcintr@gmail.com</a>
+        </p>
+        <p>
+          Cleveland, OH
+        </p>
+      </address>
+      <hr /><br /><br /><br />
+      
+      
+     </div>
+     <div id="abs1">
+      <img src="img3.jpg" /> 
+     </div>
+     <div id="abs2"> 
+         <h2>Information</h2>
+         <p> I am currently looking to change career fields.  I have a science background, studying zoology  in college<br />
+             and then working as a chemical laboratory technician.  I have since discovered the computer programming field<br />
+             and related areas.  I earned a Certified Internet Webmaster (CIW) certification in 2005.<br/>
+             I have also done self-learning in computer programming and web development:</p>
+              
+
+      
+      <table>
+        <tr>
+            <td>
+               <ul>
+                 <li><b>Programming: </b>C/C++, Java, C#</li>
+                 <li><b>Web Development: </b>JavaScript, PHP, HTML, XML, CSS</li>
+                 <li><b>Databases: </b>SQL, MySQL, Access</li>
+               </ul>
+            </td>
+        
+       </tr>
+     </table>
+    
+     </div>
+     <div id="abs3">
+      <div id="ins">
+       <form>
+         <fieldset id="fs">
+          <legend>Contact Me:</legend><br />
+          Name: &nbsp;  <input type="text" id="tx" /><br /><br />
+          Email: &nbsp;  <input type="text" id="tx1" /><br /><br />
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;cc: &nbsp;&nbsp;<input type="text" id="tx2" /><br /><br />
+         <label>Subject: &nbsp;<input type="text" id="tx3"/></label><br/><br/>
+         <label for="txa">Message:  </label><br/><br />
+         <textarea id="txa" cols="30" rows="10"></textarea><br/><br/><br/>
+         <input type="submit" value="Send" id="subm" /> 
+         </fieldset> 
+       </form>
+       
+      </div>
+     </div>
+</body>
+</html> 
